@@ -1,2 +1,44 @@
 /* Journey to the Center of the Earth Practicum */
 /* Paul Davies */
+
+
+body {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #886644 ;
+    background-color: rgba(218,211,201,255) ;
+}
+
+h1
+{font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: white;
+    background-color: #886644;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    line-height: 60px;
+}
+
+nav { color: black;
+    border: 1px;
+    border-style: solid;
+    font-size:12px;
+
+}
+
+ul {
+    list-style: "\2016";
+    columns: 4;
+    margin-left: 0;
+    padding-left: 50;    }
+    li:first-child {
+        list-style: none;
+      }
+img {
+    float: left;
+    margin-right: 1em;
+    max-width: 200px;  
+    height: auto;
+}
