@@ -7,6 +7,7 @@ body {
     border-width: 10px;
     border-color: #886644 ;
     background-color: rgba(218,211,201,255) ;
+    box-shadow: inset 1px 1px 150px #000;
 }
 
 h1
@@ -19,26 +20,49 @@ h1
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     line-height: 60px;
+    margin-top: 5px;
+    outline: 5px solid #765729;
 }
 
-nav { color: black;
+nav { 
     border: 1px;
-    border-style: solid;
     font-size:12px;
+    outline: 5px solid #765729;
 
+}
+
+h2
+{
+    border-bottom: dotted;
 }
 
 ul {
     list-style: "\2016";
     columns: 4;
     margin-left: 0;
-    padding-left: 50;    }
+    
+
+}
     li:first-child {
         list-style: none;
+        
       }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 125px;
+      }
+
 img {
     float: left;
     margin-right: 1em;
     max-width: 200px;  
     height: auto;
+}
+
+main {
+    border: 1px;
+    font-size:12px;
+    outline: 5px solid #765729;
 }
